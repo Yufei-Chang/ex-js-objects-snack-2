@@ -31,6 +31,6 @@ I maker.name sono Chef Hyur mentre i restaurant.name sono Hyur's II
 
 Quanti oggetti sono stati creati in memoria durante l'esecuzione di questo codice?
 
-Sono stati creati 2 nuovi oggetti in memoria.
+Sono stati creati 5 nuovi oggetti in memoria: 1) hamburger, 2) maker, 3) restaurant, 4) newRestaurant, 5) secondBurger.
 
 */

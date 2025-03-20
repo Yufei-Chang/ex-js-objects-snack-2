@@ -22,5 +22,15 @@ const chef = {
 /*
 Qual è il metodo migliore per clonare l’oggetto chef, e perché?
 
-Tra i metodi che conosciamo, il migliore da usare è lo spread operator, perché ci permette di clonare anche le funzioni presenti all'interno dell'oggetto, anche se in un eventuale modifica, andrebbe a intaccare i valori originali delle proprietà dell'oggetto annidato.
+Tra i metodi che conosciamo, il migliore da usare è lo spread operator, perché ci permette di clonare anche le funzioni presenti all'interno dell'oggetto, e bisogna fare degli spread dentro spread per copiare anche gli oggetti annidatamente annidati.
+
+const chefCopy = {
+    ...chef,
+    restaurant: {
+        ...chef.restaurant,
+        address: {
+            ...chef.restaurant.address
+        }
+    }
+}
 */
